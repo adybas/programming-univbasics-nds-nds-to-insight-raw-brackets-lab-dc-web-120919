@@ -6,7 +6,12 @@ def directors_totals(nds)
   result = {}
 
   while directors_index < directors_database.length do
-    
+    movie_title = 0
+    while movie_title < directors_database[directors_index][:movies].length do
+
+      movie_title += 1
+    end
+    directors_index += 1
   end
   result
 end
@@ -19,8 +24,8 @@ def print_first_directors_movie_titles
     end
 end
 
-directors[directors_index][:name]
+directors_database[directors_index][:name]
 #"Stephen Spielberg"=>1357566430,
 #"Russo Brothers"=>2281002470,
 
-directors_database[directors_index][:movie][0][:worldwide_gross]
+directors_database[directors_index][:movies][movie_title][:worldwide_gross]
