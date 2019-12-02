@@ -23,5 +23,5 @@ def directors_totals(nds)
 end
 
 
-"Stephen Spielberg"=>1357566430,
-"Russo Brothers"=>2281002470,
+#"Stephen Spielberg"=>1357566430,
+#"Russo Brothers"=>2281002470,
