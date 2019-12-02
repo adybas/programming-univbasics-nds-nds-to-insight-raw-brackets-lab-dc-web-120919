@@ -19,7 +19,9 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
+  pp nds
 end
+
 
 "Stephen Spielberg"=>1357566430,
 "Russo Brothers"=>2281002470,
